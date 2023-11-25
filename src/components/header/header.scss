@@ -48,17 +48,17 @@ $gutter-horizontal : 6rem; //Space between grids horizontally
    
         position: absolute;
         top: 4rem;
-        left: 7rem;
+        left: 11rem;
         transition: all 1s;
-        
+        animation: App-logo-spin infinite 2s linear;
 
-        &:hover {
-            transform: rotateY(360deg);
-        }
+        // &:hover {
+        //     transform: rotateY(360deg);
+        // }
     }
     
     &__logo {
-        height: 5rem;
+        height: 7rem;
         
     }
     
@@ -115,14 +115,14 @@ $gutter-horizontal : 6rem; //Space between grids horizontally
         font-size: 6rem;
         font-weight: 700;
         text-transform: none;
-        color: white;
+        color: yellow;
     
         animation: moveInTop 1s ease-out;
         transition: all 0.3s;
 
         &:hover {
             transform: scale(1.2) ;
-            color: black;
+            color: white;
         }
     }
 
@@ -237,13 +237,24 @@ $gutter-horizontal : 6rem; //Space between grids horizontally
     0% {
         opacity: 0;
         transform: translateY(-30rem) rotateY(360deg);
+        
     }
 
     100% {
         opacity: 1;
-        transform: translate(0)
+        transform: translate(0);
+        color: yellow;
     }
 }
+
+@keyframes App-logo-spin {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+  }
 
 
 .btn {
