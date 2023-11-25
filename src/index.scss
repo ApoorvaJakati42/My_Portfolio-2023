@@ -1,0 +1,35 @@
+* ,
+*::after ,
+*::before {
+    /* 
+    1. By default browser adds margin and padding so * is a universal selector , it selects all elements 
+    and apply styles 
+    2. box-sizing --> border-box --> The borders and padding are no longer added to the total width and total 
+        height
+    */
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+  /* 
+  The default font size of browser is 16px . We have reduced it to 10px so it is 62.5%
+  This defines what 1rem is
+  Important!!!!!!! 
+  The below font-size is just for reference of rem
+  */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Lato" , sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    color: darkgray;
+    padding: 3rem;
+
+    box-sizing: border-box;
+}
+
+
