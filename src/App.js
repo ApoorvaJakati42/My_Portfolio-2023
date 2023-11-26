@@ -1,11 +1,11 @@
 import './App.scss';
-import Header from './components/header/header';
+import Hero from './components/hero/hero';
 
 function App() {
   return (
     <div className="App">
       <link rel="stylesheet" href="./css/icon-font.css" />
-      <Header />
+      <Hero/>
     </div>
   );
 }
