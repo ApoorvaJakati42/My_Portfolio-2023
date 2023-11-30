@@ -1,0 +1,71 @@
+.header {
+
+    /* 
+    1. height: 95vh; ---> This occupies only the 95% of screen
+    2. background-position: top; ---> Top of the image remains same and crops the bottom
+    3. background-size: cover; --> whenever the width of the viewport or element changes it tries 
+    to fit the element inside the box
+    4.  to right bottom ---> the color starts from left to right bottom 
+    5.  rgba(126, 213 , 111 , 0.7)  --> 0.7 is the opacity
+
+    6. clip-path: polygon( 0 25% , 100% 0 , 100% 100% , 0% 75%); 
+        The above property we give x and y co-ordinates from Top left corner in clockwise direction
+    */
+
+    height: 95vh;
+    background-image: linear-gradient(
+        to right bottom,
+         rgba($color-primary-light , 0.8) ,
+          rgba($color-primary-dark, 0.7)
+          ) , 
+          url(../img/hero.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    -webkit-clip-path: polygon( 0 0% , 100% 0 , 100% 75vh , 0 100%);
+    clip-path: polygon( 0 0% , 100% 0 , 100% 75vh , 0 100%);
+
+    @include respond(phone) {
+        -webkit-clip-path: polygon( 0 0% , 100% 0 , 100% 85vh , 0 100%);
+        clip-path: polygon( 0 0% , 100% 0 , 100% 85vh , 0 100%); 
+    }
+
+    &__logo-box {
+
+        /* 
+        1. Here position is absolute so we move this div on screen , top and left 40px is calculated 
+            .... from parent element i.e header is the parent element
+        */
+    
+        position: absolute;
+        top: 4rem;
+        left: 4rem;
+    }
+    
+    &__logo {
+        height: 3.5rem;
+    }
+    
+    
+    &__text-box {
+        
+        /* 
+        1. Top and left is calculated from the parent element 
+        2. top: 40%;
+            left: 50%; ---> These are in relation with parent element 
+    
+        3. transform: translate(-50% , -50%); ---> -50% specifies that 50% is shifted to left and ..
+            ... 50% is shifted to right , This is in relation with element itself . 
+            This makes possible to make element at the centre of screen
+        4.  text-align: center; ---> Since button has text so we use this to centre it to screen
+        */
+    
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+}

@@ -1,0 +1,197 @@
+.navigation {
+    
+
+    &__checkbox {
+        display: none;
+    }
+
+    &__button {
+        //MENU button
+        background-color: $color-white;
+        height: 7rem;
+        width: 7rem;
+        position: fixed;
+        top: 6rem;
+        right: 6rem;
+        border-radius: 50%;
+        z-index: 2000;
+        text-align: center;
+        cursor: pointer;
+
+        @include respond(tabPort) {
+            top: 4rem;
+            right: 4rem;
+        }
+
+        @include respond(phone) {
+            top: 3rem;
+            right: 3rem;
+        }
+    }
+
+    &__background {
+        height: 6rem;
+        width: 6rem;
+        border-radius: 50%;
+        position: fixed;
+        top : 6.5rem;
+        right: 6.5rem;
+        background-image: radial-gradient($color-primary-light , $color-primary-dark);
+        z-index: 1000; 
+         //z-index is possible only when there is position property
+
+         //Below is very important
+        transition: transform 0.6s cubic-bezier(0.86 , 0 , 0.07 , 1);
+        //Custom transition function
+        //cubic-bezier(0.86 , 0 , 0.07 , 1);
+        //This is used to create functions like ease-in , ease-out etc
+
+        @include respond(tabPort) {
+            top: 4.5rem;
+            right: 4.5rem;
+        }
+
+        @include respond(phone) {
+            top: 3.5rem;
+            right: 3.5rem;
+        }
+
+    }
+
+    &__nav {
+        //This is a block level element
+        height: 100vh;
+        //width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        transition: all 0.8s cubic-bezier(0.68 , -0.55 , 0.265 , 1.55);
+        opacity: 0;
+        width: 0;
+        z-index: 1500;
+    }
+
+    &__list {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        list-style: none;//This property is used to remove the bullets
+        text-align: center;
+        width: 100%;
+    }
+
+    &__item {
+        margin: 1rem; //Between the elements space is given
+    }
+
+    &__link {
+
+        &:link ,
+        &:visited {
+        display: inline-block; //Default link is element . So we change it to inlineblock
+        font-size: 3rem;
+        font-weight: 500;
+        padding: 1rem 2rem;
+        color: $color-white;
+        text-decoration: none;
+        text-transform: uppercase;
+        background-image: linear-gradient(
+            120deg ,
+            transparent 0% ,
+            transparent 50% ,
+            $color-white 50%
+            );
+        background-size: 225%;
+        transition: all .4s;
+
+        span {
+            margin-right: 1.5rem;
+            display: inline-block;
+        }
+
+        }
+        
+
+        &:hover ,
+        &:active {
+            background-position: 100%;
+            color: $color-primary;
+            transform: translateX(1rem);
+        }
+    }
+
+
+    //Below code explanation is for functionality
+    //Select the parent selected i.e checkbox , so when the checkbox is checked "&__checkbox:checked" then 
+    //... select the second sibling i.e &__background and then give the css styles
+    &__checkbox:checked ~ &__background {
+        transform: scale(80);
+    }
+
+    &__checkbox:checked ~ &__nav {
+        opacity: 1;
+        width: 100%;
+    }
+
+    //Icon span styling
+    &__icon {
+
+        position: relative;
+        margin-top: 3.5rem;
+        
+        & ,
+        &::before ,
+        &::after {
+            width: 3rem;
+            height: 2px;
+            background-color: $color-grey-dark-3;
+            display: inline-block;
+        }
+
+        //Because of the below pseudo classes 2 lines will appear in the bottom
+        &::before ,
+        &::after  {
+            content: "";
+            position: absolute;
+            left: 0;
+            transition: all .2s;
+        }
+
+        // !!!!!!!!!!! Very Important
+        //transform-origin : right
+        //This above property starts its origin to the right side of the origin
+        //... We can use this to rotate a element for how much degrees we want
+        &::before { top : -.8rem ; }
+        &::after { top: .8rem }
+    }
+
+    //From button we select the icon and after hovering we change the properties
+    &__button:hover &__icon::before{
+        top: -1rem;
+    }
+
+    &__button:hover &__icon::after{
+        top: 1rem;
+    }
+
+    
+    //We can use + because it is an adjacent sibling
+    //We select the sibling i.e  &__button and then 
+    //We select the child of it i.e &__icon
+    //So when this activates the the space inside the span , we make it transparent 
+    //But the after and before pesudo lines appears
+    &__checkbox:checked + &__button &__icon{
+        background-color: transparent;
+    }
+
+    &__checkbox:checked + &__button &__icon::before{
+        top: 0;
+        transform: rotate(135deg);
+    }
+
+    &__checkbox:checked + &__button &__icon::after{
+        top: 0;
+        transform: rotate(-135deg);
+    }
+}

@@ -1,0 +1,50 @@
+@mixin clearFix {
+    //::after specifies that after rendering
+    //content should be compulsary and empty
+    //we should mention clear property so this will clear both floats left and right
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+@mixin absoluteCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+
+
+//1 em = 16px
+
+//Order Base + Typography > general layout + grid > page layout > components
+
+@mixin respond($breakpoint) {
+        @if $breakpoint == phone {
+            @media only screen and (max-width : 37.5em ) {
+                @content
+            } ;
+            // 600px          
+        }
+
+        @if $breakpoint == tabPort {
+                @media only screen and  (max-width : 56.25em) {
+                    @content
+                }; //900px
+            }
+        
+            @if $breakpoint == tabLand {
+                @media only screen and  (max-width : 75em) {
+                    @content
+                }; //1200px
+            }
+        
+            @if $breakpoint == bigDesktop {
+                @media only screen and  (max-width : 112.5em) {
+                    @content
+                }; //1800px
+            }
+}

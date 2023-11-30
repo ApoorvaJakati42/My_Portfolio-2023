@@ -1,8 +1,5 @@
 import './about.scss';
 import '../hero/hero.scss'
-import nat1Large from '../../img/nat-1-large.jpg';
-import nat2Large from '../../img/nat-2-large.jpg';
-import nat3Large from '../../img/nat-3-large.jpg';
 import react from '../../img/react-new.jpg';
 import layout from '../../img/layout.jpg';
 import digital from '../../img/digital.jpg';
@@ -20,7 +17,7 @@ function About() {
 
             <div class="row">
                 <div class="col-1-of-2">
-                    <h3 class="heading-tertiary u-marginBottom-small"> Personal Details</h3>
+                    <h3 class="heading-tertiary-about u-marginBottom-small"> Personal Details</h3>
                     <p class="my-details">
                        Name : Mr. Apoorva A Jakati <br/>
                        Date Of Birth : 29/07/1993 <br/>

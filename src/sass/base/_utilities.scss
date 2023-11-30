@@ -1,0 +1,28 @@
+@import "../../sass/abstracts/_mixins.scss";
+
+.u-center-text { text-align: center !important;} 
+//This is parent of h1 so h1 is inline-block and it is treated as text
+
+.u-marginBottom-small { margin-bottom: 1.5rem !important;}
+
+.u-marginBottom-medium { 
+    margin-bottom: 4rem !important;
+
+    @include respond(tabPort) {
+        margin-bottom: 3rem !important;
+    }
+
+}
+
+.u-marginBottom-big { 
+    margin-bottom: 8rem !important;
+
+    @include respond(tabPort) {
+        margin-bottom: 5rem !important;
+    }
+}
+//This is used to add margin separately to the h2 , h3 etc headings
+
+.u-marginTop-big { margin-top: 8rem !important;}
+.u-marginTop-huge { margin-top: 10rem !important;}
+

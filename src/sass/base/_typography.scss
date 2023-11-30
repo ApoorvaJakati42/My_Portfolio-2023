@@ -1,0 +1,132 @@
+@import "../../sass/abstracts/mixins";
+
+body {
+    /* 
+    1. styles included in body will all be inherited to its children
+    2. padding: 30px; ---> 30px padding is added to entire body
+    3. Here the whole body our project will have padding of 3rem
+    */
+
+    font-family: "Lato" , sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    color: $color-grey-dark;
+    
+
+    box-sizing: border-box;
+}
+
+
+.heading-primary {
+
+    /* 
+        1. backface-visibility: hidden; ---> When animating any element then the parent/behind
+        ... element can be hidden using this property
+    */
+
+    color: white;
+    text-transform: uppercase;
+    backface-visibility: hidden;
+    margin-bottom: 6rem;
+
+
+    &--main {
+        /* 
+        1. For creating animation write keyframes for 0% and 100% 
+        2. Inside the class where u want to animate use the below properties
+            animation-name: moveInLeft;
+            animation-duration: 5s;
+        3. animation-delay: 3s; ---> This delays for 3s and then starts animation
+        4. animation-iteration-count: 3; ---> This animates the component 3 times
+    } 
+        */
+        display: block;
+        font-size: 3rem;
+        font-weight: 400;
+        text-transform: none;
+    
+        animation-name: moveInLeft;
+        animation-duration: 1s;
+        /* animation-delay: 3s; */
+        /* animation-iteration-count: 3; */
+        animation-timing-function: ease-out;
+    }
+    
+    &--sub {
+        display: block;
+        font-size: 6rem;
+        font-weight: 700;
+        text-transform: none;
+        color: yellow;
+    
+        animation: moveInTop 1s ease-out;
+        transition: all 0.3s;
+
+        &:hover {
+            transform: scale(1.2) ;
+        }
+    }
+
+    &--job-title {
+        display: block;
+        font-size: 3rem;
+        font-weight: 700;
+        text-transform: none;
+        color: white;
+    
+        animation: moveInRight 1s ease-out;
+        transition: all 0.3s;
+
+        // &:hover {
+        //     transform: scale(1.2) translateX(3rem);
+        // }
+    }
+
+}
+
+.heading-secondary {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block; //This property helps us to stop the block where the text ends so this element 
+                             //should not take 100% of its available width
+                            //By default it is block element
+
+    background-image: linear-gradient(to right , lightgreen , darkgreen);
+
+    -webkit-background-clip : text; 
+    
+    background-clip : text; // This property will clip the background i.e the above linear gradient
+                                    //It will clip exactly where the text sits
+    
+    color: transparent;
+    letter-spacing: 2px;
+    transition: all 0.2s;
+
+    &:hover {
+        transform: skewY(2deg) skewX(15deg) scale(1.1);
+        text-shadow: .5rem 1rem 2rem rgba(black , 0.5); 
+        //0.5rem is x direction , 1 rem is y direction , 2rem is blur
+        // rgba 0.2 is 20% opacity
+    }
+}
+
+.heading-tertiary {
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.paragraph {
+    font-size: 1.6rem;
+    &:not(:last-child) {
+        margin-bottom: 3rem;
+    }
+}
+
+.paragraph {
+    font-size: $default-font-size;
+    &:not(:last-child) {
+        margin-bottom: 3rem;
+    }
+}
