@@ -42,7 +42,7 @@ function Projects() {
                             along with integrated payments
                         </p>
                     </div>
-                    <a href="#popup" class="btn btn--white">Visit Site</a>
+                    <a href="#popup" class="btn btn--white">Explore Project</a>
                 </div>
             </div>
         </div>
