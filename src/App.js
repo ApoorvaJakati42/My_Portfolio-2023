@@ -5,6 +5,8 @@ import Skills from './components/skills/skills';
 import Projects from './components/projects/projects';
 import PopUp from './components/popup/popup';
 import WorkHistory from './components/workHistory/workHistory';
+import Education from './components/education/education';
+import Footer from './components/footer/footer';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <Projects/>
       <PopUp/>
       <WorkHistory/>
+      <Education/>
+      <Footer/>
     </div>
   );
 }

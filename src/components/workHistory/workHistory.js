@@ -1,7 +1,7 @@
 import './workHistory.scss';
 import Nat8 from '../../img/nat-8.jpg';
 import Nat9 from '../../img/nat-9.jpg'
-import VideoMp4 from '../../img/video.mp4';
+import VideoMp4 from '../../img/developing.mp4';
 import VideowebM from '../../img/video.webm';
 
 function WorkHistory() {
@@ -9,7 +9,7 @@ function WorkHistory() {
     <>
         <section class="section-stories">
             <div class="bg-video">
-                <video class="bg-video__content" autoplay muted loop>
+                <video class="bg-video__content" autoPlay muted loop>
                     <source src={VideoMp4} type="video/mp4"/>
                     <source src={VideowebM} type="video/webm"/>
                 </video>
@@ -67,7 +67,7 @@ function WorkHistory() {
                 </div>
             </div>
 
-            <div class="row">
+            {/* <div class="row">
                 <div class="story"> 
                     
                     <figure class="story__shape">
@@ -88,7 +88,7 @@ function WorkHistory() {
                     </div>
 
                 </div>
-            </div>
+            </div> */}
 
             <div class="u-center-text u-marginTop-huge">
                 <a href="#" class="btn-text">Read all stories &rarr;</a>
