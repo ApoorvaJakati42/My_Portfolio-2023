@@ -1,6 +1,7 @@
 @import "../../sass/abstracts/variables";
 @import "../../sass/abstracts/mixins";
 @import "../../sass/layout/grid";
+@import "../../sass/base/animations";
 
 
 .section-features {
@@ -30,6 +31,8 @@
     border-radius: 3px;
     box-shadow: 0 1.5rem 4rem rgba($color-black , .5);
     transition: transform .5s;
+    animation: wiggle 2s linear infinite;
+
 
     &__icon {
         font-size: 8rem;
@@ -45,9 +48,36 @@
     }
 }
 
+.heading-secondary-skills {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block; //This property helps us to stop the block where the text ends so this element 
+                             //should not take 100% of its available width
+                            //By default it is block element
+
+    background-image: linear-gradient(to right bottom , red , black);
+
+    -webkit-background-clip : text; 
+    
+    background-clip : text; // This property will clip the background i.e the above linear gradient
+                                    //It will clip exactly where the text sits
+    
+    color: transparent;
+    letter-spacing: 2px;
+    transition: all 0.2s;
+
+    &:hover {
+        transform: skewY(2deg) skewX(15deg) scale(1.1);
+        text-shadow: .5rem 1rem 2rem rgba(black , 0.5); 
+        //0.5rem is x direction , 1 rem is y direction , 2rem is blur
+        // rgba 0.2 is 20% opacity
+    }
+}
+
 .heading-tertiary-skills {
     font-size: $default-font-size;
     font-weight: 800;
     text-transform: uppercase;
-    color: darkgreen;
+    color: darkred;
 }

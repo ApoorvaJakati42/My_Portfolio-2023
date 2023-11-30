@@ -7,7 +7,7 @@ function Skills() {
       <section class="section-features">
 
       <div class="u-center-text u-marginBottom-big">
-                    <h2 class="heading-secondary">
+                    <h2 class="heading-secondary-skills">
                         Technical Skills
                     </h2>
             </div>
