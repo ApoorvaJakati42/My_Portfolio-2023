@@ -2,19 +2,30 @@
 @import "../../sass/abstracts/mixins";
 @import "../../sass/layout/grid";
 @import "../../sass/base/animations";
+@import "../../sass/base/utilities";
 
 
 .section-features {
     padding: 20rem 0;
     background-image: linear-gradient(
         to right bottom , 
-        rgba(red , 0.5),
+        rgba(aqua , 0.5),
         rgba(white , 0.8)) ,
         url(../../img/sass.jpg);
         background-size: cover;
         margin-top: -10rem;
 
         transform: skewY(-7deg);
+
+        @include respond(tabLand) {
+            padding: 10rem 0;
+           
+        }
+
+        @include respond(phone) {
+            padding: 10rem 0;
+           
+        }
 
         //The below code is immediate first child selector
         & > * {
@@ -31,7 +42,20 @@
     border-radius: 3px;
     box-shadow: 0 1.5rem 4rem rgba($color-black , .5);
     transition: transform .5s;
-    animation: wiggle 2s linear infinite;
+    //animation: wiggle 2s linear infinite;
+
+    @include respond(tabLand) {
+        
+       margin-left: 5rem;
+
+       &:last-child {
+        margin-right: 3rem;
+       }
+    }
+
+    @include respond(tabPort) {
+        margin-top: 0rem;
+    }
 
 
     &__icon {
@@ -45,6 +69,10 @@
 
     &:hover {
         transform: translateY(-2rem) scale(1.3) rotateY(360deg);
+
+        @include respond(tabPort) {
+            transform: translateY(-2rem) scale(1.2) rotateY(360deg);
+        }
     }
 }
 

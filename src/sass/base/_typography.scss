@@ -50,6 +50,23 @@ body {
         /* animation-delay: 3s; */
         /* animation-iteration-count: 3; */
         animation-timing-function: ease-out;
+
+        @include respond(tabLand) {
+            font-size: 2rem;
+            margin-left: 5rem;
+        }
+
+        @include respond(tabPort) {
+            font-size: 3rem;
+           
+        }
+
+        @include respond(phone) {
+            font-size: 2rem;
+           
+        }
+
+       
     }
     
     &--sub {
@@ -61,6 +78,19 @@ body {
     
         animation: moveInTop 1s ease-out;
         transition: all 0.3s;
+
+        @include respond(tabLand) {
+            font-size: 5rem;
+            margin-left: 4rem;
+        }
+
+        @include respond(tabPort) {
+            font-size: 3rem;
+        }
+
+        @include respond(phone) {
+            font-size: 2rem;
+        }
 
         &:hover {
             transform: scale(1.2) ;
@@ -76,6 +106,15 @@ body {
     
         animation: moveInRight 1s ease-out;
         transition: all 0.3s;
+
+        @include respond(tabLand) {
+            font-size: 2rem;
+            margin-left: 5rem;
+        }
+
+        @include respond(tabPort) {
+            font-size: 2rem;
+        }
 
         // &:hover {
         //     transform: scale(1.2) translateX(3rem);

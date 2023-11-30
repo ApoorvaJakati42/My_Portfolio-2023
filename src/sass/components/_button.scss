@@ -152,6 +152,22 @@
         transition: all 0.2s;
         position: relative;
         font-size: $default-font-size;
+
+        // @include respond(tabLand) {
+        //     font-size: 2rem;
+        //     margin-left: 5rem;
+        // }
+
+        
+        @include respond(tabLand) {
+            font-size: 1.25rem;
+            margin-left: 4rem;
+        }
+
+        @include respond(tabPort) {
+            font-size: 1.25rem;
+            margin-left: 5rem;
+        }
     }
     
     &:hover {
