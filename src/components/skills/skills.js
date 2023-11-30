@@ -17,12 +17,7 @@ function Skills() {
                     <div class="feature-box">
                         <i class="feature-box__icon icon-basic-world"></i>
                         <h3 class="heading-tertiary-skills">React JS</h3>
-                        <p class="feature-box__text">
-                            Contrary to popular belief, Lorem Ipsum is not simply random text.
-                                It has roots in a piece of 
-                            classical Latin literature from 45 BC, making it over 2000 years old.
                         
-                        </p>
                     </div>
                 </div>
 
@@ -30,11 +25,7 @@ function Skills() {
                     <div class="feature-box">
                         <i class="feature-box__icon icon-basic-compass"></i>
                         <h3 class="heading-tertiary-skills">Node JS</h3>
-                        <p class="feature-box__text">
-                            Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
-                                looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.
-                    
-                        </p>
+                       
                     </div>
                 </div>
 
@@ -42,11 +33,7 @@ function Skills() {
                     <div class="feature-box">
                         <i class="feature-box__icon icon-basic-map"></i>
                         <h3 class="heading-tertiary-skills">SASS</h3>
-                        <p class="feature-box__text">
-                            Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum"
-                                (The Extremes of Good and Evil) by Cicero
-                                This book is a treatise on the theory of ethics.
-                        </p>
+                       
                     </div>
                 </div>
 
@@ -54,11 +41,7 @@ function Skills() {
                     <div class="feature-box">
                         <i class="feature-box__icon icon-basic-heart"></i>
                         <h3 class="heading-tertiary-skills">MongoDB</h3>
-                        <p class="feature-box__text">
-                            There are many variations of passages of Lorem Ipsum available,
-                                but the majority have suffered alteration in some form, by injected humour,
-                                or randomised words.
-                        </p>
+                        
                     </div>
                 </div>
                 
@@ -69,12 +52,7 @@ function Skills() {
                     <div class="feature-box">
                         <i class="feature-box__icon icon-basic-world"></i>
                         <h3 class="heading-tertiary-skills">TypeScript</h3>
-                        <p class="feature-box__text">
-                            Contrary to popular belief, Lorem Ipsum is not simply random text.
-                                It has roots in a piece of 
-                            classical Latin literature from 45 BC, making it over 2000 years old.
                         
-                        </p>
                     </div>
                 </div>
 
@@ -82,11 +60,7 @@ function Skills() {
                     <div class="feature-box">
                         <i class="feature-box__icon icon-basic-compass"></i>
                         <h3 class="heading-tertiary-skills">Redux</h3>
-                        <p class="feature-box__text">
-                            Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
-                                looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.
-                    
-                        </p>
+                        
                     </div>
                 </div>
 
@@ -94,11 +68,7 @@ function Skills() {
                     <div class="feature-box">
                         <i class="feature-box__icon icon-basic-map"></i>
                         <h3 class="heading-tertiary-skills">JavaScript</h3>
-                        <p class="feature-box__text">
-                            Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum"
-                                (The Extremes of Good and Evil) by Cicero
-                                This book is a treatise on the theory of ethics.
-                        </p>
+                        
                     </div>
                 </div>
 
@@ -106,11 +76,11 @@ function Skills() {
                     <div class="feature-box">
                         <i class="feature-box__icon icon-basic-heart"></i>
                         <h3 class="heading-tertiary-skills">HTML</h3>
-                        <p class="feature-box__text">
+                        {/* <p class="feature-box__text">
                             There are many variations of passages of Lorem Ipsum available,
                                 but the majority have suffered alteration in some form, by injected humour,
                                 or randomised words.
-                        </p>
+                        </p> */}
                     </div>
                 </div>
                 
