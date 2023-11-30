@@ -33,7 +33,7 @@ function About() {
                             
                     </p>
 
-                    <a  href="#" class="btn-text">Learn More &rarr;</a>
+                    <a  href="#" class="btn-text">Download Resume &rarr;</a>
                 </div>
                 
                 <div class="col-1-of-2">
