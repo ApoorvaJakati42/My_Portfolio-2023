@@ -4,6 +4,7 @@ import About from './components/about/about';
 import Skills from './components/skills/skills';
 import Projects from './components/projects/projects';
 import PopUp from './components/popup/popup';
+import WorkHistory from './components/workHistory/workHistory';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Skills/>
       <Projects/>
       <PopUp/>
+      <WorkHistory/>
     </div>
   );
 }
