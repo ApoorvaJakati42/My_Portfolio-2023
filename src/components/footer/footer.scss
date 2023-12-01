@@ -10,6 +10,38 @@
     padding: 10rem 0;
     font-size: 1.4rem;
 
+    &__instagram {
+        height : 5rem ;
+        width : 5rem;
+
+        @include respond(phone) {
+            height : 4rem ;
+             width : 4rem;
+        }
+    }
+
+    &__linkedIn {
+        height : 5rem ;
+        width : 5rem;
+        margin-left: 2rem;
+
+        @include respond(phone) {
+            height : 4rem ;
+             width : 4rem;
+        }
+    }
+
+    &__gitHub {
+        height : 5rem ;
+        width : 5rem;
+        margin-left: 2rem;
+
+        @include respond(phone) {
+            height : 4rem ;
+             width : 4rem;
+        }
+    }
+
     @include respond(tabPort) {
         padding: 8rem 0;
     }
@@ -82,4 +114,16 @@
             float: none;
         }
     }
+
+    &__socialMedia {
+        border-top: 1px solid $color-grey-dark;
+        padding-top: 2rem;
+        width: 50%;
+        float: left;
+        margin-left: 25%;
+
+        
+    }
+
+    
 }
