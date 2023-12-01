@@ -99,16 +99,14 @@
     }
   }
 
-  @keyframes wigglePercent {
+  @keyframes scaleInXDirection {
     0%, 20% {
       transform: rotateY(20)  scale(.5);
       
     }
     25% {
       transform: rotateY(-25deg) translateX(10rem) scale(1.4);
-    }
-   
-    
-    
+    } 
   }
+  
 

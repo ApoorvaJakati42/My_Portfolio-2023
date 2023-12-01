@@ -74,14 +74,27 @@
         color: green;
         text-transform: uppercase;
         //animation: wigglePercent 1s linear infinite;
+
+        @include respond(tabPort) {
+            font-size: 1.5rem !important;
+        }
     }
 
     &__percent {
         font-size: 1.5rem;
         color: grey;
         text-transform: uppercase;
-        animation: wigglePercent 3s linear infinite;
+        animation: scaleInXDirection 3s linear infinite;
+
+        @include respond(tabPort) {
+            font-size: 1.25rem !important;
+        }
+
+        @include respond(phone) {
+            animation: none;
+        }
     }
+    
 
  
 }
