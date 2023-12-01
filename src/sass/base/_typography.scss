@@ -25,7 +25,7 @@ body {
         ... element can be hidden using this property
     */
 
-    color:  #00008B;
+    color:  white;
     text-transform: uppercase;
     backface-visibility: hidden;
     margin-bottom: 6rem;
@@ -81,7 +81,7 @@ body {
         font-size: 6rem;
         font-weight: 700;
         text-transform: none;
-        color: #FCF6F5;
+        color: #CC313D;
     
         animation: moveInTop 1s ease-out;
         transition: all 0.3s;
@@ -109,7 +109,7 @@ body {
         font-size: 3rem;
         font-weight: 700;
         text-transform: none;
-        color: #00008B;
+        color: white;
     
         animation: moveInRight 1s ease-out;
         transition: all 0.3s;

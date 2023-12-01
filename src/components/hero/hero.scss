@@ -8,7 +8,7 @@
     background-image: linear-gradient(
         to left bottom,
          rgba(lightgreen , 0.3) ,
-          rgba(white, 0.7)
+          rgba(white, 0.3)
           ) , 
           url(../../img/developer.jpg);
     background-size: cover;
@@ -48,7 +48,7 @@
 
         @include respond(phone) {
             top: 4rem;
-            left: 14rem;
+            left: 8rem;
         }
     }
     
@@ -81,7 +81,7 @@
         }
 
         @include respond(phone) {
-            left: 14rem;
+            left: 8rem;
             width: 100%;
         }
 
