@@ -7,8 +7,8 @@
     height: 95vh;
     background-image: linear-gradient(
         to left bottom,
-         rgba(black , 0.5) ,
-          rgba(white, 0.3)
+         rgba(lightgreen , 0.3) ,
+          rgba(white, 0.7)
           ) , 
           url(../../img/developer.jpg);
     background-size: cover;
@@ -48,7 +48,7 @@
 
         @include respond(phone) {
             top: 4rem;
-            left: 9rem;
+            left: 14rem;
         }
     }
     
@@ -78,6 +78,11 @@
         @include respond(tabPort) {
             text-align: center;
             font-size: 1rem !important;
+        }
+
+        @include respond(phone) {
+            left: 14rem;
+            width: 100%;
         }
 
         
