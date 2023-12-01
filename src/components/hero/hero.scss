@@ -48,7 +48,7 @@
 
         @include respond(phone) {
             top: 4rem;
-            left: 16rem;
+            left: 10rem;
         }
     }
     
@@ -56,7 +56,7 @@
         height: 7rem;
         
         @include respond(phone) {
-            height: 5rem;
+            height: 7rem;
         }
     }
     
