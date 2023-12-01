@@ -7,10 +7,11 @@ function Skills() {
       <section class="section-features">
 
       <div class="u-center-text u-marginBottom-big">
-                    <h2 class="heading-secondary-skills">
+                    <h2 class="heading-secondary">
                         Technical Skills
                     </h2>
             </div>
+
             
             <div class="row">
                 <div class="col-1-of-4">

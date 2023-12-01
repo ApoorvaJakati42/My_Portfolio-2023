@@ -86,7 +86,7 @@ function Projects() {
                     </div>
                     <a href="https://apoorva-software-development.netlify.app/"
                     target='__blank'
-                    class="btn btn--white">Book Now</a>
+                    class="btn btn--white">Explore Project</a>
                 </div>
             </div>
         </div>
@@ -200,7 +200,7 @@ function Projects() {
                     </div>
                     <a href="https://apoorva-jakati-portfolio.netlify.app/" 
                     target='__blank'
-                    class="btn btn--white">Book Now</a>
+                    class="btn btn--white">Explore Project</a>
                 </div>
             </div>
         </div>
@@ -236,7 +236,7 @@ function Projects() {
                         <p class="card__price-only">Only</p>
                         <p class="card__price-value">Rs.25000</p>
                     </div>
-                    <a href="#popup" class="btn btn--white">Book Now</a>
+                    <a href="#popup" class="btn btn--white">Explore Project</a>
                 </div>
             </div>
         </div>

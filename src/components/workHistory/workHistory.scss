@@ -7,7 +7,8 @@
 .section-stories {
     padding: 15rem 0; //top/bottom left/right 
     position: relative;   
-    
+    margin-top: -5rem;
+
     @include respond(tabPort) {
         padding: 10rem 0 ;
     }
@@ -27,11 +28,12 @@
     @include respond(tabPort) {
         width: 100%;
         padding: 4rem;
-    padding-left: 7rem;
+        padding-left: 7rem;
     }
 
     @include respond(phone) {
         transform: skewX(0);
+        padding: 1rem;
     }
 
     //The below code is immediate first child selector
@@ -55,6 +57,10 @@
 
         @include respond(phone) {
             transform: translateX(-3rem) skewX(0);
+            width: 10rem;
+             height: 10rem;
+             margin-left: 4rem;
+             margin-top: 1rem;
         }
       
     }
@@ -64,6 +70,8 @@
         transform: translateX(-4rem) scale(1.4);
         backface-visibility: hidden;
         transition: all .5s;
+
+        
     }
 
     &__text {
@@ -71,6 +79,7 @@
 
         @include respond(phone) {
             transform: skewX(0);
+            font-size: 1.25rem;
         }
     }
 
@@ -86,6 +95,10 @@
         opacity: 0;
         transition: all .5s;
         backface-visibility: hidden;
+
+        @include respond(phone) {
+            font-size: 1.25rem;
+        }
     }
 
     &:hover &__caption {
@@ -113,10 +126,14 @@
     opacity: 1;
     overflow: hidden;
 
+    
+
     &__content {
         height: 100%;
         width: 100%;
         object-fit: cover; //This property is similar to image background size cover
         //The video will fill the entire parent element maintaining the aspect ratio
+
+        
     }
 }

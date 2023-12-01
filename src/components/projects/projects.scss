@@ -10,7 +10,11 @@
     margin-top: -10rem;
 
     @include respond(tabPort) {
-        padding: 20rem 0 10rem 0 ;
+        padding: 10rem 0 10rem 0 ;
+    }
+
+    @include respond(phone) {
+        padding: 5rem 0 10rem 0 ;
     }
 }
 
