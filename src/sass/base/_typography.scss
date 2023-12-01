@@ -33,6 +33,7 @@ body {
     @include respond(phone) {
        margin-top: 3rem;
        margin-left: -5rem;
+       margin-bottom: 3rem;
     }
 
 
@@ -100,7 +101,6 @@ body {
 
         &:hover {
             transform: scale(1.2) ;
-            color: rgb(37, 33, 117);
         }
     }
 
