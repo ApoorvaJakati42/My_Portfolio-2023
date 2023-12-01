@@ -75,7 +75,7 @@ body {
         font-size: 6rem;
         font-weight: 700;
         text-transform: none;
-        color: yellow;
+        color: white;
     
         animation: moveInTop 1s ease-out;
         transition: all 0.3s;
@@ -95,6 +95,7 @@ body {
 
         &:hover {
             transform: scale(1.2) ;
+            color: yellow;
         }
     }
 

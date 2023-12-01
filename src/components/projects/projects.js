@@ -62,11 +62,10 @@ function Projects() {
                 </h4>
                 <div class="card__details">
                     <ul>
-                        <li>7 day tour</li>
-                        <li>Up To 40 People</li>
-                        <li>6 Tour guides</li>
-                        <li>Sleep in provided tents</li>
-                        <li>Difficulty : Medium</li>
+                        <li>React JS</li>
+                        <li>Material UI</li>
+                        <li>React Router</li>
+                        
                     </ul>
                 </div>
             </div>
