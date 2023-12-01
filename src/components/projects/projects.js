@@ -77,7 +77,7 @@ function Projects() {
                         <p class="card__price-only">Only</p>
                         <p class="card__price-value">Rs.20000</p>
                     </div>
-                    <a href="#popup" class="btn btn--white">Book Now</a>
+                    <a href="https://apoorva-software-development.netlify.app/" class="btn btn--white">Book Now</a>
                 </div>
             </div>
         </div>
@@ -122,7 +122,7 @@ function Projects() {
     <div class="col-1-of-3">
         <div class="card">
             <div class="card__side card__side--front">
-                <div class="card__picture card__picture--1">
+                <div class="card__picture card__picture--4">
                     &nbsp;
                 </div>
                 <h4 class="card__heading">
@@ -160,7 +160,7 @@ function Projects() {
     <div class="col-1-of-3">
         <div class="card">
             <div class="card__side card__side--front">
-                <div class="card__picture card__picture--2">
+                <div class="card__picture card__picture--5">
                     &nbsp;
                 </div>
                 <h4 class="card__heading">

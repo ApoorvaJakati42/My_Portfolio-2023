@@ -92,7 +92,7 @@
                 $color-secondary-light ,
                 $color-secondary-dark
                 ) ,
-                url(../../img/nat-5.jpg);
+                url(../../img/fashion-1.JPG);
           
         }
 
@@ -102,7 +102,7 @@
                 $color-primary-light ,
                 $color-primary-dark
                 ) ,
-                url(../../img/nat-6.jpg);
+                url(../../img/Arc-1.JPG);
         }
 
         &--3 {
@@ -112,6 +112,24 @@
                 $color-tertiary-dark
                 ) ,
                 url(../../img/nat-7.jpg);
+        }
+
+        &--4 {
+            background-image:  linear-gradient(
+                to right bottom ,
+                $color-tertiary-light ,
+                $color-tertiary-dark
+                ) ,
+                url(../../img/Crown-1.JPG);
+        }
+
+        &--5 {
+            background-image:  linear-gradient(
+                to right bottom ,
+                $color-tertiary-light ,
+                $color-tertiary-dark
+                ) ,
+                url(../../img/port-1.JPG);
         }
 
     }

@@ -1,8 +1,8 @@
 import './about.scss';
 import '../hero/hero.scss'
-import react from '../../img/react-new.jpg';
-import layout from '../../img/layout.jpg';
-import digital from '../../img/digital.jpg';
+import react from '../../img/fashion-1.JPG';
+import layout from '../../img/Crown-1.JPG';
+import digital from '../../img/Arc-1.JPG';
 
 
 function About() {
