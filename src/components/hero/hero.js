@@ -1,5 +1,5 @@
 import './hero.scss';
-import logo from '../../img/dna.svg'
+import logo from '../../img/dribble.svg'
 
 function Hero() {
     return (

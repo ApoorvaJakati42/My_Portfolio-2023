@@ -80,7 +80,7 @@ body {
         font-size: 6rem;
         font-weight: 700;
         text-transform: none;
-        color: white;
+        color: rgb(1, 2, 45);
     
         animation: moveInTop 1s ease-out;
         transition: all 0.3s;
@@ -100,7 +100,7 @@ body {
 
         &:hover {
             transform: scale(1.2) ;
-            color: yellow;
+            color: rgb(37, 33, 117);
         }
     }
 
