@@ -1,4 +1,5 @@
 import './App.scss';
+import React, { useEffect } from 'react';
 import Hero from './components/hero/hero';
 import About from './components/about/about';
 import Skills from './components/skills/skills';
@@ -9,6 +10,11 @@ import Education from './components/education/education';
 import Footer from './components/footer/footer';
 
 function App() {
+
+  useEffect(() => {
+    document.title = 'Apoorva Jakati Portfolio';
+  }, []);
+
   return (
     <div className="App">
       <link rel="stylesheet" href="./css/icon-font.css" />
