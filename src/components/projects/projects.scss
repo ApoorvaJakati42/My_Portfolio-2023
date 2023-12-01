@@ -19,11 +19,11 @@
     perspective: 150rem;
     -moz-perspective: 150rem;
     position: relative;
-    height: 52rem;
+    height: 58rem;
 
     &__side {
         font-size: 2rem;
-        height: 52rem;
+        height: 58rem;
         transition: all .8s ease;
         position: absolute;
         top: 0;
@@ -221,6 +221,12 @@
 
     &__price-only {
         font-size: 3rem;
+        text-transform: uppercase;
+    }
+
+    &__tech {
+        font-size: 2rem;
+        color: green;
         text-transform: uppercase;
     }
 

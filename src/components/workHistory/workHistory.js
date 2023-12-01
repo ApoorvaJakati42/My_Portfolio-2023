@@ -39,14 +39,15 @@ function WorkHistory() {
                         </h3>
                         <p>
                            I have developed and tested UI , API's , alerts , alarms , device
-                           configuration....                            
+                           configurations and control functionalities on IOT devices like AC, Dimmer,
+                           Security Systems, Switches, Cameras, LCD Remotes using Java, MySql , Hibernate abd Struts etc.                            
                         </p>
                         <h3 class="heading-tertiary u-marginBottom-small">
                             Alexa and Google Home
                         </h3>
                         <p>
                            Implemented smart home speech to text conversions for Alexa 
-                           and Google Home....                            
+                           and Google Home device using Node API and restful web services.                           
                         </p>
                     </div>
 
@@ -71,7 +72,9 @@ function WorkHistory() {
                         </h3>
                         <p>
                            I had the valuable opportunity to gain hands-on experience with 
-                           SAP Material Management....                            
+                           SAP Material Management `(MM)` and SAP SRM modules. During this period,
+                            I actively engaged in various aspects of procurement and materials management
+                            within the SAP environment.
                         </p>
                     </div>
 

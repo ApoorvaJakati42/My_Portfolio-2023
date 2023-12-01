@@ -76,25 +76,39 @@
   /* Keyframes */
   @keyframes wiggle {
     0%, 7% {
-      transform: rotateZ(0);
+      transform: rotateY(20) ;
+      
     }
     15% {
-      transform: rotateZ(-15deg);
+      transform: rotateY(-20deg) ;
     }
     20% {
-      transform: rotateZ(10deg);
+      transform: rotateY(20deg) ;
     }
     25% {
-      transform: rotateZ(-10deg);
+      transform: rotateY(0deg) ;
     }
     30% {
-      transform: rotateZ(6deg);
+      transform: rotateY(16deg) ;
     }
     35% {
-      transform: rotateZ(-4deg);
+      transform: rotateY(-14deg);
     }
     40%, 100% {
-      transform: rotateZ(0);
+      transform: rotateY(10) ;
     }
+  }
+
+  @keyframes wigglePercent {
+    0%, 20% {
+      transform: rotateY(20)  scale(.5);
+      
+    }
+    25% {
+      transform: rotateY(-25deg) translateX(10rem) scale(1.4);
+    }
+   
+    
+    
   }
 

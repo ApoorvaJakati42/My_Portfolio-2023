@@ -24,11 +24,14 @@ function Projects() {
                 </h4>
                 <div class="card__details">
                     <ul>
-                        <li>React JavaScript</li>
-                        <li>Strapi MongoDB</li>
-                        <li>GraphQL</li>
+                        <li>
+                        <p class="card__tech">Tech Stack</p> 
+                        </li>
+                        <li>React JS</li>
                         <li>Node JS</li>
-                        <li>Stripe Payment</li>
+                        <li>Mongo DB</li>
+                        <li>Strapi Framework</li>
+                        <li>Gatsby Framework</li>
                     </ul>
                 </div>
             </div>
@@ -36,10 +39,12 @@ function Projects() {
             <div class="card__side card__side--back card__side--back-1">
                 <div class="card__cta">
                     <div class="card__price-box">
-                        <p class="card__price-only">Project Description</p>
+                        {/* <p class="card__price-only">Project Description</p> */}
                         <p class="card__price-value">
-                            Here You can shop for many men / Women clothing
-                            along with integrated payments
+                            This project was built using Strapi as the backend CMS and Gatsby
+                            as the frontend framework with React Js. This project allowed me 
+                            to gain expertise in creating robust, high - performance and 
+                            user-friendly e-commerce solutions.
                         </p>
                     </div>
                     <a href="https://apoorva-crown-shopping.netlify.app"
@@ -62,6 +67,9 @@ function Projects() {
                 </h4>
                 <div class="card__details">
                     <ul>
+                        <li>
+                        <p class="card__tech">Tech Stack</p> 
+                        </li>
                         <li>React JS</li>
                         <li>Material UI</li>
                         <li>React Router</li>
@@ -76,7 +84,9 @@ function Projects() {
                         <p class="card__price-only">Only</p>
                         <p class="card__price-value">Rs.20000</p>
                     </div>
-                    <a href="https://apoorva-software-development.netlify.app/" class="btn btn--white">Book Now</a>
+                    <a href="https://apoorva-software-development.netlify.app/"
+                    target='__blank'
+                    class="btn btn--white">Book Now</a>
                 </div>
             </div>
         </div>
@@ -95,7 +105,9 @@ function Projects() {
                 </h4>
                 <div class="card__details">
                     <ul>
-                        <li>5 day tour</li>
+                        <li>
+                        <p class="card__tech">Tech Stack</p> 
+                        </li>
                         <li>Up To 18 People</li>
                         <li>3 Tour guides</li>
                         <li>Sleep in provided tents</li>
@@ -129,7 +141,9 @@ function Projects() {
                 </h4>
                 <div class="card__details">
                     <ul>
-                        <li>React JavaScript</li>
+                         <li>
+                        <p class="card__tech">Tech Stack</p> 
+                        </li>
                         <li>Strapi MongoDB</li>
                         <li>GraphQL</li>
                         <li>Node JS</li>
@@ -167,7 +181,9 @@ function Projects() {
                 </h4>
                 <div class="card__details">
                     <ul>
-                        <li>7 day tour</li>
+                        <li>
+                        <p class="card__tech">Tech Stack</p> 
+                        </li>
                         <li>Up To 40 People</li>
                         <li>6 Tour guides</li>
                         <li>Sleep in provided tents</li>
@@ -203,7 +219,9 @@ function Projects() {
                 </h4>
                 <div class="card__details">
                     <ul>
-                        <li>5 day tour</li>
+                          <li>
+                        <p class="card__tech">Tech Stack</p> 
+                        </li>
                         <li>Up To 18 People</li>
                         <li>3 Tour guides</li>
                         <li>Sleep in provided tents</li>

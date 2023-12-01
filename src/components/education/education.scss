@@ -3,6 +3,7 @@
 @import "../../sass/layout/grid";
 @import "../../sass/base/utilities";
 @import "../../sass/base/typography";
+@import "../../sass/base/animations";
 
 
 .section-book {
@@ -32,6 +33,7 @@
     box-sizing: 0 1.5rem 4rem rgba($color-black , .3);
     
     
+    
     @include respond(tabLand) {
         background-image: linear-gradient(
             105deg ,
@@ -56,6 +58,7 @@
     &__form {
        width: 50%;
        padding: 6rem; 
+       
 
        @include respond(tabLand) {
         width: 65%;
@@ -64,6 +67,20 @@
        @include respond(tabPort) {
         width: 100%;
        }
+    }
+
+    &__degree {
+        font-size: 2rem;
+        color: green;
+        text-transform: uppercase;
+        //animation: wigglePercent 1s linear infinite;
+    }
+
+    &__percent {
+        font-size: 1.5rem;
+        color: grey;
+        text-transform: uppercase;
+        animation: wigglePercent 3s linear infinite;
     }
 
  
@@ -116,6 +133,7 @@
         margin-top: .7rem;
         display: block;
         transition: all .3s;
+        
     }
 
     &__input:placeholder-shown + &__label {
