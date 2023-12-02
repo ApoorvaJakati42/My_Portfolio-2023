@@ -18,9 +18,9 @@ function Footer() {
                     <ul class="footer__list">
                         <li class="footer__item"><a href="#" class="footer__link">Home</a></li> 
                         <li class="footer__item"><a href="#" class="footer__link">About</a></li>
-                        <li class="footer__item"><a href="#" class="footer__link">Contact</a></li>
-                        <li class="footer__item"><a href="#" class="footer__link">Privacy Policy</a></li>
-                        <li class="footer__item"><a href="#" class="footer__link">Terms</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">My Projects</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">WorkHistory</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Education</a></li>
                     </ul>
                 </div>
                 

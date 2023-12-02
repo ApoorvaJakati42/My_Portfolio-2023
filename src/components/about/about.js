@@ -8,7 +8,7 @@ import digital from '../../img/Arc-1.JPG';
 function About() {
     return (
       <>
-       <section class="section-about">
+       <section class="section-about" id='about'>
             <div class="u-center-text u-marginBottom-big">
                     <h2 class="heading-secondary">
                         About MySelf

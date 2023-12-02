@@ -40,7 +40,7 @@
             rgba($color-white , 0.7) 0%, 
             rgba($color-white , 0.7) 70%,
             transparent 65%),
-            url(../../img/nat-10.jpg);
+            url(../../img/education.jpg);
 
             background-size: cover; 
     }
@@ -51,7 +51,7 @@
             rgba($color-white , 0.7) 0%, 
             rgba($color-white , 0.7) 100%,
             ),
-            url(../../img/nat-10.jpg);
+            url(../../img/education.jpg);
  
     }
 
@@ -71,7 +71,7 @@
 
     &__degree {
         font-size: 2rem;
-        color: green;
+        color: brown;
         text-transform: uppercase;
         //animation: wigglePercent 1s linear infinite;
 

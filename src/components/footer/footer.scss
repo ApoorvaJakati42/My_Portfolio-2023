@@ -82,6 +82,12 @@
         &:not(:last-child) {
             margin-right: 1.5rem;
         }
+
+        @include respond(phone) {
+            
+                margin-right: 2rem;
+           
+        }
     }
 
     &__link {

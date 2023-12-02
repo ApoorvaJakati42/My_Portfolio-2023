@@ -16,7 +16,7 @@ function Hero() {
                 <span class="heading-primary--job-title">Full Stack Web Developer</span>
             </h1>
 
-            <a href="#" class="btn-hero btn-hero--white btn-hero--animated">About Me</a> 
+            <a href="#about" class="btn-hero btn-hero--white btn-hero--animated">About Me</a> 
         </div>
 
     </div>
