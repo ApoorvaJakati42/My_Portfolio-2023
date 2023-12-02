@@ -122,7 +122,7 @@ function Projects() {
                         <p class="card__price-only">Only</p>
                         <p class="card__price-value">Rs.25000</p>
                     </div>
-                    <a href="#popup" class="btn btn--white">Book Now</a>
+                    <a href="#popup" class="btn btn--white">Explore Project</a>
                 </div>
             </div>
         </div>
@@ -243,9 +243,9 @@ function Projects() {
     </div>
 </div>
 
-<div class="u-center-text u-marginTop-huge">
+{/* <div class="u-center-text u-marginTop-huge">
     <a href="#" class="btn btn--green">Discover all Projects</a>
-    </div>
+    </div> */}
 
 </section>
     </>

@@ -34,6 +34,7 @@
     @include respond(phone) {
         transform: skewX(0);
         padding: 1rem;
+        margin-bottom: 3rem;
     }
 
     //The below code is immediate first child selector

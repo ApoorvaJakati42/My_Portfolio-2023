@@ -104,9 +104,9 @@ function WorkHistory() {
                 </div>
             </div> */}
 
-            <div class="u-center-text u-marginTop-huge">
+            {/* <div class="u-center-text u-marginTop-huge">
                 <a href="#" class="btn-text">Read all stories &rarr;</a>
-                </div>
+                </div> */}
         </section>
     </>
   );

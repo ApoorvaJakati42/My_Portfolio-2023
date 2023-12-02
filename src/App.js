@@ -8,6 +8,7 @@ import PopUp from './components/popup/popup';
 import WorkHistory from './components/workHistory/workHistory';
 import Education from './components/education/education';
 import Footer from './components/footer/footer';
+import Navigation from './components/navigation/navigation';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
   return (
     <div className="App">
       <link rel="stylesheet" href="./css/icon-font.css" />
+      <Navigation/>
       <Hero/>
       <About/>
       <Skills/>
