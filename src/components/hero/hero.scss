@@ -27,8 +27,8 @@
     &__logo-box {
    
         position: absolute;
-        top: 2rem;
-        left: 8rem;
+        top: 3rem;
+        left: 7.8rem;
         transition: all 1s;
         animation: App-logo-spin infinite 2s linear;
 
@@ -47,23 +47,23 @@
         }
 
         @include respond(phone) {
-            top: 0rem;
+            top: 2.5rem;
             left: 2rem;
         }
     }
     
     &__logo {
-        height: 10rem;
+        height: 7.5rem;
         
         @include respond(phone) {
-            height: 13rem;
+            height: 7rem;
         }
     }
     
     
     &__text-box {
         position: absolute;
-        top: 40%;
+        top: 47%;
         left: 25%;
         transform: translate(-50% , -50%);
         font-size: 1.6rem;

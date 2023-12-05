@@ -81,8 +81,7 @@ function Projects() {
             <div class="card__side card__side--back card__side--back-2">
                 <div class="card__cta">
                     <div class="card__price-box">
-                        <p class="card__price-only">Only</p>
-                        <p class="card__price-value">Rs.20000</p>
+                        <p class="card__price-only">Project Details</p>
                     </div>
                     <a href="https://apoorva-software-development.netlify.app/"
                     target='__blank'
@@ -108,10 +107,10 @@ function Projects() {
                         <li>
                         <p class="card__tech">Tech Stack</p> 
                         </li>
-                        <li>Up To 18 People</li>
-                        <li>3 Tour guides</li>
-                        <li>Sleep in provided tents</li>
-                        <li>Difficulty : Hard</li>
+                        <li>React JS</li>
+                        <li>Node JS</li>
+                        <li>Charts</li>
+                        <li>Postgre</li>
                     </ul>
                 </div>
             </div>
@@ -119,8 +118,8 @@ function Projects() {
             <div class="card__side card__side--back card__side--back-3">
                 <div class="card__cta">
                     <div class="card__price-box">
-                        <p class="card__price-only">Only</p>
-                        <p class="card__price-value">Rs.25000</p>
+                        <p class="card__price-only">Project Details</p>
+                        
                     </div>
                     <a href="#popup" class="btn btn--white">Explore Project</a>
                 </div>
@@ -184,10 +183,9 @@ function Projects() {
                         <li>
                         <p class="card__tech">Tech Stack</p> 
                         </li>
-                        <li>Up To 40 People</li>
-                        <li>6 Tour guides</li>
-                        <li>Sleep in provided tents</li>
-                        <li>Difficulty : Medium</li>
+                        <li>React JS</li>
+                        <li>Node JS</li>
+                        <li>React Router</li>
                     </ul>
                 </div>
             </div>
@@ -195,8 +193,8 @@ function Projects() {
             <div class="card__side card__side--back card__side--back-2">
                 <div class="card__cta">
                     <div class="card__price-box">
-                        <p class="card__price-only">Only</p>
-                        <p class="card__price-value">Rs.20000</p>
+                        <p class="card__price-only">Project Description</p>
+                        {/* <p class="card__price-value">Rs.20000</p> */}
                     </div>
                     <a href="https://apoorva-jakati-portfolio.netlify.app/" 
                     target='__blank'
@@ -222,10 +220,9 @@ function Projects() {
                           <li>
                         <p class="card__tech">Tech Stack</p> 
                         </li>
-                        <li>Up To 18 People</li>
-                        <li>3 Tour guides</li>
-                        <li>Sleep in provided tents</li>
-                        <li>Difficulty : Hard</li>
+                        <li>Node JS</li>
+                        <li>Socket IO</li>
+                        <li>Express Server</li>
                     </ul>
                 </div>
             </div>
@@ -233,8 +230,8 @@ function Projects() {
             <div class="card__side card__side--back card__side--back-3">
                 <div class="card__cta">
                     <div class="card__price-box">
-                        <p class="card__price-only">Only</p>
-                        <p class="card__price-value">Rs.25000</p>
+                        <p class="card__price-only">Project Description</p>
+                        {/* <p class="card__price-value">Rs.25000</p> */}
                     </div>
                     <a href="#popup" class="btn btn--white">Explore Project</a>
                 </div>

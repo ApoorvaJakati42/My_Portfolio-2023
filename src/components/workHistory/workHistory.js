@@ -33,8 +33,8 @@ function WorkHistory() {
                         <h3 class="heading-tertiary u-marginBottom-small">
                             Sep 2017 - July 2019
                         </h3>
-                        <h2>Imonitor Solutions</h2>
-                        <h3 class="heading-tertiary u-marginBottom-small">
+                        <h2 >Imonitor Solutions</h2>
+                        <h3 class="heading-tertiary-work">
                             Home Automation
                         </h3>
                         <p>
@@ -42,7 +42,7 @@ function WorkHistory() {
                            configurations and control functionalities on IOT devices like AC, Dimmer,
                            Security Systems, Switches, Cameras, LCD Remotes using Java, MySql , Hibernate abd Struts etc.                            
                         </p>
-                        <h3 class="heading-tertiary u-marginBottom-small">
+                        <h3 class="heading-tertiary-work">
                             Alexa and Google Home
                         </h3>
                         <p>
@@ -67,7 +67,7 @@ function WorkHistory() {
                             Feb 2016 - Feb 2017
                         </h3>
                         <h2>Bharath Electronics Ltd.</h2>
-                        <h3 class="heading-tertiary u-marginBottom-small">
+                        <h3 class="heading-tertiary-work u-marginBottom-small">
                             Graduate Apprentice Trainee
                         </h3>
                         <p>

@@ -11,7 +11,7 @@ function About() {
        <section class="section-about" id='about'>
             <div class="u-center-text u-marginBottom-big">
                     <h2 class="heading-secondary">
-                        About MySelf
+                        About Me
                     </h2>
             </div>
 
@@ -26,7 +26,7 @@ function About() {
                             
                     </p>
 
-                    <h3 class="heading-tertiary u-marginBottom-small">Professsional Summary</h3>
+                    <h3 class="heading-tertiary-about u-marginBottom-small">Professsional Summary</h3>
                     <p class="paragraph">
                     Software Developer with 2 years & 10 months of experience in software development using
                     Java and Javascript technologies. Proficient with tools such as Eclipse and VS Code.Passionate about coding.
