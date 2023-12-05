@@ -1,6 +1,6 @@
 import './workHistory.scss';
-import Nat8 from '../../img/nat-8.jpg';
-import Nat9 from '../../img/nat-9.jpg'
+import Nat8 from '../../img/nat-6.jpg';
+import Nat9 from '../../img/nat-7.jpg'
 import VideoMp4 from '../../img/developing.mp4';
 import VideowebM from '../../img/video.webm';
 
